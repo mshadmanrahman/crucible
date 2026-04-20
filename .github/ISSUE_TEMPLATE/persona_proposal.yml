@@ -1,0 +1,71 @@
+name: Persona proposal
+description: Propose a new persona for the Crucible roster.
+title: "[Persona] "
+labels: ["persona-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a persona. The bar is a concrete rubric. Skim [CONTRIBUTING.md](../../blob/main/CONTRIBUTING.md) first.
+  - type: input
+    id: name
+    attributes:
+      label: Persona name
+      description: One or two words. Avoid cute names. "Regulator", "Naive Outsider", "Archivist" are the pattern.
+      placeholder: e.g., Customer Voice
+    validations:
+      required: true
+  - type: textarea
+    id: role
+    attributes:
+      label: Role in one sentence
+      description: What is this persona's job? Do not say "be thoughtful."
+      placeholder: "Name the failure mechanism and the earliest warning sign a PM would have seen."
+    validations:
+      required: true
+  - type: textarea
+    id: rubric
+    attributes:
+      label: Rubric (3 to 5 concrete deliverables)
+      description: Each item should force a specific answer, not a general take.
+      placeholder: |
+        - Cite one customer quote or verbatim that supports or contradicts the plan
+        - Name the segment the quote came from
+        - Name the assumption the plan makes about this segment
+    validations:
+      required: true
+  - type: dropdown
+    id: model
+    attributes:
+      label: Model tier
+      description: Match the model to the work. See existing personas in personas.md for pattern.
+      options:
+        - Haiku (fast, rubric-driven checks)
+        - Sonnet (judgment-heavy reasoning)
+        - Opus (premise attack, high-leverage synthesis)
+    validations:
+      required: true
+  - type: input
+    id: output_format
+    attributes:
+      label: Output format
+      description: Word count range and shape.
+      placeholder: "100 to 150 words, bulleted"
+    validations:
+      required: true
+  - type: textarea
+    id: not_this
+    attributes:
+      label: What this persona does NOT do
+      description: Prevent overlap with existing personas.
+      placeholder: "Does not argue the business model. That is the Economist's job."
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Triggering problem type
+      description: Which bench would this join? What question would activate this persona?
+      placeholder: "User-facing product launch bench. Activated when the plan depends on beginner adoption."
+    validations:
+      required: true

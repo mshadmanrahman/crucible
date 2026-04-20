@@ -1,0 +1,41 @@
+name: Bug report
+description: Something in the Crucible skill misbehaved.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened
+      description: Describe the misbehaviour. Include the question you asked and what the council did.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: transcript
+    attributes:
+      label: Transcript excerpt
+      description: Paste the relevant section of the transcript file if available.
+      render: markdown
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Which mode
+      options:
+        - Quick
+        - PM Daily
+        - Decision
+        - Existential
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Claude Code version, OS.
+      placeholder: "Claude Code v1.x on macOS"

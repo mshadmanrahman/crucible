@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest an improvement that is not a persona proposal.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve
+      description: Ground the request in a real use case. "I asked X and the council did Y. I wish it had done Z."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What else did you try or think about? Why is this the right move?

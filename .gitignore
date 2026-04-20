@@ -1,0 +1,10 @@
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+node_modules/
+.env
+.env.local
+transcripts/
+crucible-runs/

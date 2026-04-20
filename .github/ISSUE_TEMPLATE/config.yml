@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Full backstory
+    url: https://claudecodeguide.dev/crucible
+    about: Why Crucible exists, how it was built, and what it has changed for me.
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/shadmanrahman/
+    about: For conversations that do not fit an issue.
