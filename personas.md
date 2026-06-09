@@ -100,7 +100,7 @@ The first four are the original critic-and-builder spine. **First Principles** a
 - `~/.claude/projects/-Users-connectshadman-Documents-VibeCoding/memory/MEMORY.md`
 - Relevant memory shard (`_index_moonlight.md`, `_index_work.md`, `_index_feedback.md`) based on problem type
 - Two most recent handoffs in `~/Documents/VibeCoding/_context/handoffs/`
-- `~/Documents/VibeCoding/_context/docs/career-vault.md` if the question touches identity or personal history
+- `~/Documents/VibeCoding/_career/master/career-vault.md` if the question touches identity or personal history
 
 **Rubric:**
 - Cite one past pattern (by filename) that matches this question
@@ -141,7 +141,7 @@ The first four are the original critic-and-builder spine. **First Principles** a
 **Reading list:**
 - `~/.claude/projects/-Users-connectshadman-Documents-VibeCoding/memory/user_core_motivation.md`
 - `~/.claude/projects/-Users-connectshadman-Documents-VibeCoding/memory/feedback_pushback_agreement.md`
-- `~/Documents/VibeCoding/_context/docs/career-vault.md` if the question is career-adjacent
+- `~/Documents/VibeCoding/_career/master/career-vault.md` if the question is career-adjacent
 
 **Rubric:**
 - Does this align with stated goals (100K SEK/month for family, halal-only finances, career trajectory, family time)?
